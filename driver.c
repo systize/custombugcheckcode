@@ -6,8 +6,8 @@
 
 #define MY_BUGCHECK_CODE   0x1B
 
-#define NT_DEVICE_NAME     L"\\Device\\MyBugcheckDevice"
-#define DOS_DEVICE_NAME    L"\\DosDevices\\MyBugcheckDevice"
+#define NT_DEVICE_NAME     L"\\Device\\CustomKE"
+#define DOS_DEVICE_NAME    L"\\DosDevices\\CustomKE"
 
 #define IOCTL_TRIGGER_BUGCHECK \
     CTL_CODE(FILE_DEVICE_UNKNOWN, 0x800, METHOD_BUFFERED, FILE_WRITE_ACCESS)
