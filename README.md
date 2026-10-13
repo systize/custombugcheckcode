@@ -1,4 +1,5 @@
 # Custom Bugcheck Code
+<i>Came from inqi.dev? Click "Releases" please</i>
 > [!CAUTION]
 > Before even doing any of this, run Command Prompt as Administrator and run `bcdedit /set testsigning on`. **You can always change it back to off by changing "on" to "off". Remember to disable Secure Boot too if the driver still won't load after enabling test mode.**
 *Also, remember to reboot to save changes.*
